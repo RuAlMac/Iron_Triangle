@@ -1,0 +1,416 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Net Status Report</title>
+</head>
+<body onload="document.getElementById('radio_mm').click()"><img ALT="Altium" src="
+			file://C:\Users\russe\OneDrive\Documents\AltiumLL\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Net Status Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7/3/2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:52:15 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc" class="file"><acronym title="C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc">C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc</acronym></a></td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Units:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">
+<form><input type="radio" name="radio_units" id="radio_mm" onclick="changeUnits(this, 'mm')">mm<input type="radio" name="radio_units" id="radio_mil" onclick="changeUnits(this, 'mil')">mils</form>
+</td>
+</tr>
+</table><a name="IDSV1UBZKACXP2DDNCC0L1MIXVLIFAZ4JQ3QAXHENJVU34CUN2OS3I"><table>
+<tr>
+<th class="column1">Nets</th>
+<th class="column2">Layer</th>
+<th class="column3">Length</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1011.381mil|Location2.X=4853.055mil|Location1.Y=3440.213mil|Location2.Y=6758.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1011.381mil|Location2.X=4853.055mil|Location1.Y=3440.213mil|Location2.Y=6758.649mil|Absolute=True">+3V3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="76900383">195.327mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1056.473mil|Location2.X=5663.528mil|Location1.Y=3868.165mil|Location2.Y=8428.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1056.473mil|Location2.X=5663.528mil|Location1.Y=3868.165mil|Location2.Y=8428.528mil|Absolute=True">+5V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="126546903">321.4291mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=944.055mil|Location2.X=6259.016mil|Location1.Y=3329.055mil|Location2.Y=8428.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=944.055mil|Location2.X=6259.016mil|Location1.Y=3329.055mil|Location2.Y=8428.528mil|Absolute=True">GND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="194488505">494.0008mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">L_Out_+</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="26795101">68.0596mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">L_Out_-</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="19978003">50.7441mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.095mil|Location2.X=4953.055mil|Location1.Y=3859.095mil|Location2.Y=6258.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.095mil|Location2.X=4953.055mil|Location1.Y=3859.095mil|Location2.Y=6258.649mil|Absolute=True">NRF_CE</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="60613382">153.958mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2216mil|Location2.X=4953.055mil|Location1.Y=3904.095mil|Location2.Y=6358.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2216mil|Location2.X=4953.055mil|Location1.Y=3904.095mil|Location2.Y=6358.649mil|Absolute=True">NRF_CSN</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="59876592">152.0865mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1456.473mil|Location2.X=5153.055mil|Location1.Y=3326mil|Location2.Y=4458.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1456.473mil|Location2.X=5153.055mil|Location1.Y=3326mil|Location2.Y=4458.649mil|Absolute=True">NRF_MISO</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="52721874">133.9136mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NRF_MOSI</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="51140453">129.8968mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1334.213mil|Location2.X=5053.055mil|Location1.Y=3304.095mil|Location2.Y=4458.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1334.213mil|Location2.X=5053.055mil|Location1.Y=3304.095mil|Location2.Y=4458.649mil|Absolute=True">NRF_SCK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="53335815">135.473mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.441mil|Location2.X=5315.905mil|Location1.Y=3334.095mil|Location2.Y=5699.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.441mil|Location2.X=5315.905mil|Location1.Y=3334.095mil|Location2.Y=5699.158mil|Absolute=True">NetP5_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="40409711">102.6407mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3688.441mil|Location2.X=5275.905mil|Location1.Y=3379.095mil|Location2.Y=5699.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3688.441mil|Location2.X=5275.905mil|Location1.Y=3379.095mil|Location2.Y=5699.158mil|Absolute=True">NetP5_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="39951996">101.4781mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.441mil|Location2.X=5240.905mil|Location1.Y=3429.095mil|Location2.Y=5699.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.441mil|Location2.X=5240.905mil|Location1.Y=3429.095mil|Location2.Y=5699.158mil|Absolute=True">NetP5_4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="37634839">95.5925mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">RGB_BLUE</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="20295934">51.5517mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">RGB_GREEN</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="17872725">45.3967mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">RGB_RED</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="14516696">36.8724mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">R_Out_+</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="20602379">52.33mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">R_Out_-</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="21938228">55.7231mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SCL</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="64145741">162.9302mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2956.472mil|Location2.X=5459.748mil|Location1.Y=4791.594mil|Location2.Y=8428.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2956.472mil|Location2.X=5459.748mil|Location1.Y=4791.594mil|Location2.Y=8428.528mil|Absolute=True">SDA</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="60311127">153.1903mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SD_CS</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="48902022">124.2111mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SD_MISO</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="28906862">73.4234mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SD_MOSI</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="33791119">85.8294mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SD_SCK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="26434456">67.1435mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">SPEAKER</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="58358897">148.2316mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2006mil|Location2.X=4190.575mil|Location1.Y=4391.594mil|Location2.Y=8421.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2006mil|Location2.X=4190.575mil|Location1.Y=4391.594mil|Location2.Y=8421.047mil|Absolute=True">Tilt</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="63193203">160.5107mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856.472mil|Location2.X=3532.74mil|Location1.Y=4391.594mil|Location2.Y=5882.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856.472mil|Location2.X=3532.74mil|Location1.Y=4391.594mil|Location2.Y=5882.74mil|Absolute=True">column1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="23396047">59.426mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856.472mil|Location2.X=3837.937mil|Location1.Y=4154.095mil|Location2.Y=5882.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856.472mil|Location2.X=3837.937mil|Location1.Y=4154.095mil|Location2.Y=5882.74mil|Absolute=True">column2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="30836965">78.3259mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2756.472mil|Location2.X=4143.134mil|Location1.Y=4124.095mil|Location2.Y=5882.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2756.472mil|Location2.X=4143.134mil|Location1.Y=4124.095mil|Location2.Y=5882.74mil|Absolute=True">column3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="36725435">93.2826mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2756.472mil|Location2.X=4448.331mil|Location1.Y=4089.095mil|Location2.Y=5882.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2756.472mil|Location2.X=4448.331mil|Location1.Y=4089.095mil|Location2.Y=5882.74mil|Absolute=True">column4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="39262299">99.7262mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2656.472mil|Location2.X=4271.165mil|Location1.Y=4387.913mil|Location2.Y=4520.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2656.472mil|Location2.X=4271.165mil|Location1.Y=4387.913mil|Location2.Y=4520.905mil|Absolute=True">row1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="18939888">48.1073mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2638.661mil|Location2.X=4271.165mil|Location1.Y=4291.594mil|Location2.Y=5010.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2638.661mil|Location2.X=4271.165mil|Location1.Y=4291.594mil|Location2.Y=5010.905mil|Absolute=True">row2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="25518903">64.818mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2556.472mil|Location2.X=4271.165mil|Location1.Y=4391.594mil|Location2.Y=5455.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2556.472mil|Location2.X=4271.165mil|Location1.Y=4391.594mil|Location2.Y=5455.905mil|Absolute=True">row3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="28970517">73.5851mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2538.237mil|Location2.X=4271.165mil|Location1.Y=4291.594mil|Location2.Y=5915.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2538.237mil|Location2.X=4271.165mil|Location1.Y=4291.594mil|Location2.Y=5915.905mil|Absolute=True">row4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="35218738">89.4556mm
+			</a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

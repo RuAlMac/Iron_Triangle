@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=Tilt Pin=Arduino Mega-30
+Removed Pin From Net: NetName=RGB_RED Pin=Arduino Mega-31
+Removed Pin From Net: NetName=RGB_GREEN Pin=Arduino Mega-32
+Removed Pin From Net: NetName=RGB_BLUE Pin=Arduino Mega-33
+Added Pin To Net: NetName=Tilt Pin=Arduino Mega-38
+Added Pin To Net: NetName=RGB_RED Pin=Arduino Mega-39
+Added Pin To Net: NetName=RGB_GREEN Pin=Arduino Mega-40
+Added Pin To Net: NetName=RGB_BLUE Pin=Arduino Mega-41
+Added Pin To Net: NetName=b1 Pin=Arduino Mega-22
+Added Pin To Net: NetName=b1 Pin=B1-2
+Added Net: Name=b1
+Added Pin To Net: NetName=b2 Pin=Arduino Mega-23
+Added Pin To Net: NetName=b2 Pin=B2-2
+Added Net: Name=b2
+Added Pin To Net: NetName=b3 Pin=Arduino Mega-24
+Added Pin To Net: NetName=b3 Pin=B3-2
+Added Net: Name=b3
+Added Pin To Net: NetName=b4 Pin=Arduino Mega-25
+Added Pin To Net: NetName=b4 Pin=B4-2
+Added Net: Name=b4
+Added Pin To Net: NetName=b5 Pin=Arduino Mega-26
+Added Pin To Net: NetName=b5 Pin=B5-2
+Added Net: Name=b5
+Added Pin To Net: NetName=b6 Pin=Arduino Mega-27
+Added Pin To Net: NetName=b6 Pin=B6-2
+Added Net: Name=b6
+Added Pin To Net: NetName=b7 Pin=Arduino Mega-28
+Added Pin To Net: NetName=b7 Pin=B7-2
+Added Net: Name=b7
+Added Pin To Net: NetName=b8 Pin=Arduino Mega-29
+Added Pin To Net: NetName=b8 Pin=B8-2
+Added Net: Name=b8
+Added Pin To Net: NetName=b9 Pin=B9-2
+Added Net: Name=b9
+Added Pin To Net: NetName=b10 Pin=Arduino Mega-31
+Added Pin To Net: NetName=b10 Pin=B10-2
+Added Net: Name=b10
+Added Pin To Net: NetName=b11 Pin=B11-2
+Added Net: Name=b11
+Added Pin To Net: NetName=b12 Pin=Arduino Mega-33
+Added Pin To Net: NetName=b12 Pin=B12-2
+Added Net: Name=b12
+Added Pin To Net: NetName=b13 Pin=B13-2
+Added Net: Name=b13
+Added Pin To Net: NetName=b14 Pin=Arduino Mega-35
+Added Pin To Net: NetName=b14 Pin=B14-2
+Added Net: Name=b14
+Added Pin To Net: NetName=b15 Pin=B15-2
+Added Net: Name=b15
+Added Pin To Net: NetName=b16 Pin=Arduino Mega-37
+Added Pin To Net: NetName=b16 Pin=B16-2
+Added Net: Name=b16
+Added Member To Class: ClassName=main Member=Component B6 Pushbutton
+Added Member To Class: ClassName=main Member=Component B7 Pushbutton
+Added Member To Class: ClassName=main Member=Component B12 Pushbutton

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+5V Pin=C1-1
+Removed Pin From Net: NetName=+5V Pin=P2-2
+Change Component Comment : Designator=P1 Old Comment=Header 6 New Comment=SD
+Added Pin To Net: NetName=+3V3 Pin=Arduino Mega-55
+Added Pin To Net: NetName=+3V3 Pin=C1-1
+Added Pin To Net: NetName=+3V3 Pin=P2-2
+Added Net: Name=+3V3

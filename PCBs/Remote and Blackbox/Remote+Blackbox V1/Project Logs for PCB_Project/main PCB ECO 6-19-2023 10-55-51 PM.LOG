@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=SPEAKER Pin=P6-2
+Removed Member From Class: ClassName=main Member=P6
+Added Component: Designator=A1(HiLetgo PAM8403 Amp Module)
+Added Pin To Net: NetName=GND Pin=A1-5
+Added Pin To Net: NetName=+5V Pin=A1-6
+Added Pin To Net: NetName=SPEAKER Pin=A1-7
+Added Pin To Net: NetName=GND Pin=A1-8
+Added Pin To Net: NetName=SPEAKER Pin=A1-9
+Added Pin To Net: NetName=SPEAKER Pin=Arduino Mega-11
+Added Pin To Net: NetName=L_Out_+ Pin=A1-3
+Added Pin To Net: NetName=L_Out_+ Pin=S2-2
+Added Net: Name=L_Out_+
+Added Pin To Net: NetName=L_Out_- Pin=A1-4
+Added Pin To Net: NetName=L_Out_- Pin=S2-1
+Added Net: Name=L_Out_-
+Added Pin To Net: NetName=R_Out_+ Pin=A1-2
+Added Pin To Net: NetName=R_Out_+ Pin=S1-2
+Added Net: Name=R_Out_+
+Added Pin To Net: NetName=R_Out_- Pin=A1-1
+Added Pin To Net: NetName=R_Out_- Pin=S1-1
+Added Net: Name=R_Out_-
+Added Member To Class: ClassName=main Member=Component A1 Speaker Amp
+Added Member To Class: ClassName=main Member=Component P5 RGB LED

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NC Pin=RELAY-1
+Removed Pin From Net: NetName=NO Pin=RELAY-2
+Removed Pin From Net: NetName=Coil 2 Pin=RELAY-4
+Removed Pin From Net: NetName=Common Pin=RELAY-5
+Removed Member From Class: ClassName=main Member=RELAY
+Added Component: Designator=Rly1(SRD-05VDC Relay)
+Added Pin To Net: NetName=NO Pin=Rly1-1
+Added Pin To Net: NetName=NC Pin=Rly1-2
+Added Pin To Net: NetName=Coil 2 Pin=Rly1-4
+Added Pin To Net: NetName=Common Pin=Rly1-5
+Added Pin To Net: NetName=NetRly1_3 Pin=Rly1-3
+Added Pin To Net: NetName=NetRly1_3 Pin=S2-2
+Added Net: Name=NetRly1_3
+Added Member To Class: ClassName=main Member=Component D1 Diode
+Added Member To Class: ClassName=main Member=Component Rly1 5VDC Relay

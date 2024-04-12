@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=P4 Old Footprint=HDR1X4H New Footprint=HDR1X4
+Added Pin To Net: NetName=column1 Pin=Arduino Mega-22
+Added Pin To Net: NetName=column3 Pin=Arduino Mega-24
+Added Pin To Net: NetName=row1 Pin=Arduino Mega-26
+Added Pin To Net: NetName=row3 Pin=Arduino Mega-28
+Added Pin To Net: NetName=Tilt Pin=Arduino Mega-30
+Added Pin To Net: NetName=RGB_GREEN Pin=Arduino Mega-32

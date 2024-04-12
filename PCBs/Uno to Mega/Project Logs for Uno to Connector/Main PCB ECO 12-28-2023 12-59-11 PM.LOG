@@ -1,0 +1,131 @@
+Added Component: Designator=A1(Arduino Uno)
+Added Component: Designator=J1(TE_1-1761681-3)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1-1761681-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0 Pin=A1-0
+Added Pin To Net: NetName=0 Pin=J1-18
+Added Net: Name=0
+Added Pin To Net: NetName=1 Pin=A1-1
+Added Pin To Net: NetName=1 Pin=J1-17
+Added Net: Name=1
+Added Pin To Net: NetName=2 Pin=A1-2
+Added Pin To Net: NetName=2 Pin=J1-16
+Added Net: Name=2
+Added Pin To Net: NetName=3 Pin=A1-3
+Added Pin To Net: NetName=3 Pin=J1-15
+Added Net: Name=3
+Added Pin To Net: NetName=3V3 Pin=A1-3V3
+Added Pin To Net: NetName=3V3 Pin=J1-27
+Added Net: Name=3V3
+Added Pin To Net: NetName=4 Pin=A1-4
+Added Pin To Net: NetName=4 Pin=J1-14
+Added Net: Name=4
+Added Pin To Net: NetName=5 Pin=A1-5
+Added Pin To Net: NetName=5 Pin=J1-13
+Added Net: Name=5
+Added Pin To Net: NetName=5V Pin=A1-5V
+Added Pin To Net: NetName=5V Pin=J1-26
+Added Net: Name=5V
+Added Pin To Net: NetName=6 Pin=A1-6
+Added Pin To Net: NetName=6 Pin=J1-12
+Added Net: Name=6
+Added Pin To Net: NetName=7 Pin=A1-7
+Added Pin To Net: NetName=7 Pin=J1-11
+Added Net: Name=7
+Added Pin To Net: NetName=8 Pin=A1-8
+Added Pin To Net: NetName=8 Pin=J1-10
+Added Net: Name=8
+Added Pin To Net: NetName=9 Pin=A1-9
+Added Pin To Net: NetName=9 Pin=J1-9
+Added Net: Name=9
+Added Pin To Net: NetName=10 Pin=A1-10
+Added Pin To Net: NetName=10 Pin=J1-8
+Added Net: Name=10
+Added Pin To Net: NetName=11 Pin=A1-11
+Added Pin To Net: NetName=11 Pin=J1-7
+Added Net: Name=11
+Added Pin To Net: NetName=12 Pin=A1-12
+Added Pin To Net: NetName=12 Pin=J1-6
+Added Net: Name=12
+Added Pin To Net: NetName=13 Pin=A1-13
+Added Pin To Net: NetName=13 Pin=J1-5
+Added Net: Name=13
+Added Pin To Net: NetName=201 Pin=A1-201
+Added Pin To Net: NetName=201 Pin=J1-30
+Added Net: Name=201
+Added Pin To Net: NetName=202 Pin=A1-202
+Added Pin To Net: NetName=202 Pin=J1-31
+Added Net: Name=202
+Added Pin To Net: NetName=203 Pin=A1-203
+Added Pin To Net: NetName=203 Pin=J1-32
+Added Net: Name=203
+Added Pin To Net: NetName=204 Pin=A1-204
+Added Pin To Net: NetName=204 Pin=J1-33
+Added Net: Name=204
+Added Pin To Net: NetName=205 Pin=A1-205
+Added Pin To Net: NetName=205 Pin=J1-34
+Added Net: Name=205
+Added Pin To Net: NetName=301 Pin=A1-301
+Added Pin To Net: NetName=301 Pin=J1-35
+Added Net: Name=301
+Added Pin To Net: NetName=302 Pin=A1-302
+Added Pin To Net: NetName=302 Pin=J1-36
+Added Net: Name=302
+Added Pin To Net: NetName=303 Pin=A1-303
+Added Pin To Net: NetName=303 Pin=J1-37
+Added Net: Name=303
+Added Pin To Net: NetName=304 Pin=A1-304
+Added Pin To Net: NetName=304 Pin=J1-38
+Added Net: Name=304
+Added Pin To Net: NetName=305 Pin=A1-305
+Added Pin To Net: NetName=305 Pin=J1-39
+Added Net: Name=305
+Added Pin To Net: NetName=A0 Pin=A1-A0
+Added Pin To Net: NetName=A0 Pin=J1-24
+Added Net: Name=A0
+Added Pin To Net: NetName=A1 Pin=A1-A1
+Added Pin To Net: NetName=A1 Pin=J1-23
+Added Net: Name=A1
+Added Pin To Net: NetName=A2 Pin=A1-A2
+Added Pin To Net: NetName=A2 Pin=J1-22
+Added Net: Name=A2
+Added Pin To Net: NetName=A3 Pin=A1-A3
+Added Pin To Net: NetName=A3 Pin=J1-21
+Added Net: Name=A3
+Added Pin To Net: NetName=A4 Pin=A1-A4
+Added Pin To Net: NetName=A4 Pin=J1-20
+Added Net: Name=A4
+Added Pin To Net: NetName=A5 Pin=A1-A5
+Added Pin To Net: NetName=A5 Pin=J1-19
+Added Net: Name=A5
+Added Pin To Net: NetName=AREF Pin=A1-AREF
+Added Pin To Net: NetName=AREF Pin=J1-4
+Added Net: Name=AREF
+Added Pin To Net: NetName=GND Pin=A1-200
+Added Pin To Net: NetName=GND Pin=A1-300
+Added Pin To Net: NetName=GND Pin=A1-GND1
+Added Pin To Net: NetName=GND Pin=A1-GND2
+Added Pin To Net: NetName=GND Pin=A1-GND3
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-40
+Added Net: Name=GND
+Added Pin To Net: NetName=IOREF Pin=A1-IOREF
+Added Pin To Net: NetName=IOREF Pin=J1-29
+Added Net: Name=IOREF
+Added Pin To Net: NetName=RESET Pin=A1-RESET
+Added Pin To Net: NetName=RESET Pin=J1-28
+Added Net: Name=RESET
+Added Pin To Net: NetName=SCL Pin=A1-SCL
+Added Pin To Net: NetName=SCL Pin=J1-2
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=A1-SDA
+Added Pin To Net: NetName=SDA Pin=J1-3
+Added Net: Name=SDA
+Added Pin To Net: NetName=VIN Pin=A1-VIN
+Added Pin To Net: NetName=VIN Pin=J1-25
+Added Net: Name=VIN
+Added Class: Name=Main

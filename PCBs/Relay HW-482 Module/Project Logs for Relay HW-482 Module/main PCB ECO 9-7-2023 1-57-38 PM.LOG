@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=Coil 2 Pin=T1-1
+Removed Pin From Net: NetName=GND Pin=T1-3
+Change Component Footprint: Designator=T1 Old Footprint=TO-226-AA New Footprint=TO254P508X877-3
+Change Component Comment : Designator=T1 Old Comment=NPN New Comment=2N3904
+Change Component Designator: OldDesignator=RELAY NewDesignator=Rly1
+Change component parameters: Designator = "T1" ("T1"); Footprint = "TO-226-AA"; UniqueID = "\IKINAOPM" ("\IKINAOPM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://componentsearchengine.com/Datasheets/1/2N3904.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2N3904"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "512-2N3904"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "http://www.mouser.com/Search/ProductDetail.aspx?qs=Ih6pQfo0YOruECMVf%252b8Yxg%3d%3d"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=T1-1

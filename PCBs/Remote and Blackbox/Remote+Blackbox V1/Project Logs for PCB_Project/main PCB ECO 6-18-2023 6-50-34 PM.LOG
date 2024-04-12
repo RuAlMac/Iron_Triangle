@@ -1,0 +1,295 @@
+Added Component: Designator=Arduino Mega(ARDUINO MEGA)
+Added Component: Designator=Arduino Uno(ARDUINO UNO)
+Added Component: Designator=B1(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B2(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B3(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B4(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B5(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B6(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B7(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B8(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B9(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B10(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B11(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B12(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B13(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B14(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B15(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=B16(FSM4JH)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC9%7Fpdf%7FEnglish%7FENG_CD_1825910_C9.pdf%7F1825910-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-FSM2JAH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/FSM2JAH?qs=Of7OaoM7rsH02ckr%252BGLHNA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C1(RAD-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR1X6H)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(HDR2X4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P3(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P4(HDR1X4H)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P5(HDR1X4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P6(HDR1X9)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=S1(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=S2(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=Arduino Mega-56
+Added Pin To Net: NetName=+5V Pin=Arduino Uno-5V
+Added Pin To Net: NetName=+5V Pin=C1-2
+Added Pin To Net: NetName=+5V Pin=P1-2
+Added Pin To Net: NetName=+5V Pin=P2-2
+Added Pin To Net: NetName=+5V Pin=P4-2
+Added Net: Name=+5V
+Added Pin To Net: NetName=column1 Pin=B1-1
+Added Pin To Net: NetName=column1 Pin=B5-1
+Added Pin To Net: NetName=column1 Pin=B9-1
+Added Pin To Net: NetName=column1 Pin=B13-1
+Added Net: Name=column1
+Added Pin To Net: NetName=column2 Pin=Arduino Mega-23
+Added Pin To Net: NetName=column2 Pin=B2-1
+Added Pin To Net: NetName=column2 Pin=B6-1
+Added Pin To Net: NetName=column2 Pin=B10-1
+Added Pin To Net: NetName=column2 Pin=B14-1
+Added Net: Name=column2
+Added Pin To Net: NetName=column3 Pin=B3-1
+Added Pin To Net: NetName=column3 Pin=B7-1
+Added Pin To Net: NetName=column3 Pin=B11-1
+Added Pin To Net: NetName=column3 Pin=B15-1
+Added Net: Name=column3
+Added Pin To Net: NetName=column4 Pin=Arduino Mega-25
+Added Pin To Net: NetName=column4 Pin=B4-1
+Added Pin To Net: NetName=column4 Pin=B8-1
+Added Pin To Net: NetName=column4 Pin=B12-1
+Added Pin To Net: NetName=column4 Pin=B16-1
+Added Net: Name=column4
+Added Pin To Net: NetName=GND Pin=Arduino Mega-57
+Added Pin To Net: NetName=GND Pin=Arduino Uno-GND1
+Added Pin To Net: NetName=GND Pin=B1-4
+Added Pin To Net: NetName=GND Pin=B2-4
+Added Pin To Net: NetName=GND Pin=B3-4
+Added Pin To Net: NetName=GND Pin=B4-4
+Added Pin To Net: NetName=GND Pin=B5-4
+Added Pin To Net: NetName=GND Pin=B6-4
+Added Pin To Net: NetName=GND Pin=B7-4
+Added Pin To Net: NetName=GND Pin=B8-4
+Added Pin To Net: NetName=GND Pin=B9-4
+Added Pin To Net: NetName=GND Pin=B10-4
+Added Pin To Net: NetName=GND Pin=B11-4
+Added Pin To Net: NetName=GND Pin=B12-4
+Added Pin To Net: NetName=GND Pin=B13-4
+Added Pin To Net: NetName=GND Pin=B14-4
+Added Pin To Net: NetName=GND Pin=B15-4
+Added Pin To Net: NetName=GND Pin=B16-4
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P5-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NRF_CE Pin=Arduino Mega-6
+Added Pin To Net: NetName=NRF_CE Pin=P2-3
+Added Net: Name=NRF_CE
+Added Pin To Net: NetName=NRF_CSN Pin=Arduino Mega-7
+Added Pin To Net: NetName=NRF_CSN Pin=P2-4
+Added Net: Name=NRF_CSN
+Added Pin To Net: NetName=NRF_MISO Pin=Arduino Mega-50
+Added Pin To Net: NetName=NRF_MISO Pin=P2-7
+Added Net: Name=NRF_MISO
+Added Pin To Net: NetName=NRF_MOSI Pin=Arduino Mega-51
+Added Pin To Net: NetName=NRF_MOSI Pin=P2-6
+Added Net: Name=NRF_MOSI
+Added Pin To Net: NetName=NRF_SCK Pin=Arduino Mega-52
+Added Pin To Net: NetName=NRF_SCK Pin=P2-5
+Added Net: Name=NRF_SCK
+Added Pin To Net: NetName=RGB_BLUE Pin=Arduino Mega-33
+Added Pin To Net: NetName=RGB_BLUE Pin=P5-4
+Added Net: Name=RGB_BLUE
+Added Pin To Net: NetName=RGB_GREEN Pin=P5-3
+Added Net: Name=RGB_GREEN
+Added Pin To Net: NetName=RGB_RED Pin=Arduino Mega-31
+Added Pin To Net: NetName=RGB_RED Pin=P5-1
+Added Net: Name=RGB_RED
+Added Pin To Net: NetName=row1 Pin=B13-2
+Added Pin To Net: NetName=row1 Pin=B14-2
+Added Pin To Net: NetName=row1 Pin=B15-2
+Added Pin To Net: NetName=row1 Pin=B16-2
+Added Net: Name=row1
+Added Pin To Net: NetName=row2 Pin=Arduino Mega-27
+Added Pin To Net: NetName=row2 Pin=B9-2
+Added Pin To Net: NetName=row2 Pin=B10-2
+Added Pin To Net: NetName=row2 Pin=B11-2
+Added Pin To Net: NetName=row2 Pin=B12-2
+Added Net: Name=row2
+Added Pin To Net: NetName=row3 Pin=B5-2
+Added Pin To Net: NetName=row3 Pin=B6-2
+Added Pin To Net: NetName=row3 Pin=B7-2
+Added Pin To Net: NetName=row3 Pin=B8-2
+Added Net: Name=row3
+Added Pin To Net: NetName=row4 Pin=Arduino Mega-29
+Added Pin To Net: NetName=row4 Pin=B1-2
+Added Pin To Net: NetName=row4 Pin=B2-2
+Added Pin To Net: NetName=row4 Pin=B3-2
+Added Pin To Net: NetName=row4 Pin=B4-2
+Added Net: Name=row4
+Added Pin To Net: NetName=SCL Pin=Arduino Mega-21
+Added Pin To Net: NetName=SCL Pin=Arduino Uno-SCL
+Added Pin To Net: NetName=SCL Pin=P4-4
+Added Net: Name=SCL
+Added Pin To Net: NetName=SD_CS Pin=Arduino Uno-4
+Added Pin To Net: NetName=SD_CS Pin=P1-6
+Added Net: Name=SD_CS
+Added Pin To Net: NetName=SD_MISO Pin=Arduino Uno-12
+Added Pin To Net: NetName=SD_MISO Pin=P1-3
+Added Net: Name=SD_MISO
+Added Pin To Net: NetName=SD_MOSI Pin=Arduino Uno-11
+Added Pin To Net: NetName=SD_MOSI Pin=P1-4
+Added Net: Name=SD_MOSI
+Added Pin To Net: NetName=SD_SCK Pin=Arduino Uno-13
+Added Pin To Net: NetName=SD_SCK Pin=P1-5
+Added Net: Name=SD_SCK
+Added Pin To Net: NetName=SDA Pin=Arduino Mega-20
+Added Pin To Net: NetName=SDA Pin=Arduino Uno-SDA
+Added Pin To Net: NetName=SDA Pin=P4-3
+Added Net: Name=SDA
+Added Pin To Net: NetName=SPEAKER Pin=Arduino Uno-9
+Added Pin To Net: NetName=SPEAKER Pin=P6-2
+Added Net: Name=SPEAKER
+Added Pin To Net: NetName=Tilt Pin=P3-2
+Added Net: Name=Tilt
+Added Class: Name=main

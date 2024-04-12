@@ -1,0 +1,42 @@
+Net Status Report
+Filename     : C:\Users\russe\OneDrive\Hobbies\Arduino\Projects\Active Projects\The Iron Triangle\PCBs\Remote and Blackbox\Remote+Blackbox V1\main.PcbDoc
+Date         : 7/3/2023
+Time         : 12:52:15 AM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    +3V3, Signal Layers Only, 195.327mm
+    +5V, Signal Layers Only, 321.4291mm
+    GND, Signal Layers Only, 494.0008mm
+    L_Out_+, Signal Layers Only, 68.0596mm
+    L_Out_-, Signal Layers Only, 50.7441mm
+    NRF_CE, Signal Layers Only, 153.958mm
+    NRF_CSN, Signal Layers Only, 152.0865mm
+    NRF_MISO, Signal Layers Only, 133.9136mm
+    NRF_MOSI, Signal Layers Only, 129.8968mm
+    NRF_SCK, Signal Layers Only, 135.473mm
+    NetP5_1, Signal Layers Only, 102.6407mm
+    NetP5_3, Signal Layers Only, 101.4781mm
+    NetP5_4, Signal Layers Only, 95.5925mm
+    RGB_BLUE, Signal Layers Only, 51.5517mm
+    RGB_GREEN, Signal Layers Only, 45.3967mm
+    RGB_RED, Signal Layers Only, 36.8724mm
+    R_Out_+, Signal Layers Only, 52.33mm
+    R_Out_-, Signal Layers Only, 55.7231mm
+    SCL, Signal Layers Only, 162.9302mm
+    SDA, Signal Layers Only, 153.1903mm
+    SD_CS, Signal Layers Only, 124.2111mm
+    SD_MISO, Signal Layers Only, 73.4234mm
+    SD_MOSI, Signal Layers Only, 85.8294mm
+    SD_SCK, Signal Layers Only, 67.1435mm
+    SPEAKER, Signal Layers Only, 148.2316mm
+    Tilt, Signal Layers Only, 160.5107mm
+    column1, Signal Layers Only, 59.426mm
+    column2, Signal Layers Only, 78.3259mm
+    column3, Signal Layers Only, 93.2826mm
+    column4, Signal Layers Only, 99.7262mm
+    row1, Signal Layers Only, 48.1073mm
+    row2, Signal Layers Only, 64.818mm
+    row3, Signal Layers Only, 73.5851mm
+    row4, Signal Layers Only, 89.4556mm
+count : 34

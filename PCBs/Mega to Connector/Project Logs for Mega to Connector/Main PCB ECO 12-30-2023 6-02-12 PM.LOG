@@ -1,0 +1,122 @@
+Removed Pin From Net: NetName=22 Pin=J6-1
+Removed Pin From Net: NetName=23 Pin=J6-2
+Removed Pin From Net: NetName=24 Pin=J6-3
+Removed Pin From Net: NetName=25 Pin=J6-4
+Removed Pin From Net: NetName=26 Pin=J6-5
+Removed Pin From Net: NetName=27 Pin=J6-6
+Removed Pin From Net: NetName=28 Pin=J6-7
+Removed Pin From Net: NetName=29 Pin=J6-8
+Removed Pin From Net: NetName=30 Pin=J6-9
+Removed Pin From Net: NetName=31 Pin=J6-10
+Removed Pin From Net: NetName=32 Pin=J6-11
+Removed Pin From Net: NetName=33 Pin=J6-12
+Removed Pin From Net: NetName=34 Pin=J6-13
+Removed Pin From Net: NetName=35 Pin=J6-14
+Removed Pin From Net: NetName=36 Pin=J6-15
+Removed Pin From Net: NetName=37 Pin=J6-16
+Removed Pin From Net: NetName=38 Pin=J6-17
+Removed Pin From Net: NetName=39 Pin=J6-18
+Removed Pin From Net: NetName=40 Pin=J6-19
+Removed Pin From Net: NetName=41 Pin=J6-20
+Removed Pin From Net: NetName=42 Pin=J7-1
+Removed Pin From Net: NetName=43 Pin=J7-2
+Removed Pin From Net: NetName=44 Pin=J7-3
+Removed Pin From Net: NetName=45 Pin=J7-4
+Removed Pin From Net: NetName=46 Pin=J7-5
+Removed Pin From Net: NetName=47 Pin=J7-6
+Removed Pin From Net: NetName=48 Pin=J7-7
+Removed Pin From Net: NetName=49 Pin=J7-8
+Removed Pin From Net: NetName=A6 Pin=J7-9
+Removed Pin From Net: NetName=A7 Pin=J7-10
+Removed Pin From Net: NetName=A8 Pin=J7-11
+Removed Pin From Net: NetName=A9 Pin=J7-12
+Removed Pin From Net: NetName=A10 Pin=J7-13
+Removed Pin From Net: NetName=14 Pin=J7-14
+Removed Pin From Net: NetName=15 Pin=J7-15
+Removed Pin From Net: NetName=16 Pin=J7-16
+Removed Pin From Net: NetName=17 Pin=J7-17
+Removed Pin From Net: NetName=18 Pin=J7-18
+Removed Pin From Net: NetName=19 Pin=J7-19
+Removed Pin From Net: NetName=GND Pin=J7-20
+Change Component Footprint: Designator=J6 Old Footprint=HDR1X20 New Footprint=HDR1X16
+Change Component Footprint: Designator=J7 Old Footprint=HDR1X20 New Footprint=HDR1X16
+Change Component Comment : Designator=J6 Old Comment=Header 20 New Comment=Header 16
+Change Component Comment : Designator=J7 Old Comment=Header 20 New Comment=Header 16
+Added Component: Designator=J8(HDR1X16)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=J9(HDR1X8)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=23 Pin=J6-1
+Added Pin To Net: NetName=25 Pin=J6-2
+Added Pin To Net: NetName=27 Pin=J6-3
+Added Pin To Net: NetName=29 Pin=J6-4
+Added Pin To Net: NetName=31 Pin=J6-5
+Added Pin To Net: NetName=33 Pin=J6-6
+Added Pin To Net: NetName=35 Pin=J6-7
+Added Pin To Net: NetName=37 Pin=J6-8
+Added Pin To Net: NetName=39 Pin=J6-9
+Added Pin To Net: NetName=41 Pin=J6-10
+Added Pin To Net: NetName=43 Pin=J6-11
+Added Pin To Net: NetName=45 Pin=J6-12
+Added Pin To Net: NetName=47 Pin=J6-13
+Added Pin To Net: NetName=49 Pin=J6-14
+Added Pin To Net: NetName=MOSI Pin=J6-15
+Added Pin To Net: NetName=SS Pin=J6-16
+Added Pin To Net: NetName=22 Pin=J7-1
+Added Pin To Net: NetName=24 Pin=J7-2
+Added Pin To Net: NetName=26 Pin=J7-3
+Added Pin To Net: NetName=28 Pin=J7-4
+Added Pin To Net: NetName=30 Pin=J7-5
+Added Pin To Net: NetName=32 Pin=J7-6
+Added Pin To Net: NetName=34 Pin=J7-7
+Added Pin To Net: NetName=36 Pin=J7-8
+Added Pin To Net: NetName=38 Pin=J7-9
+Added Pin To Net: NetName=40 Pin=J7-10
+Added Pin To Net: NetName=42 Pin=J7-11
+Added Pin To Net: NetName=44 Pin=J7-12
+Added Pin To Net: NetName=46 Pin=J7-13
+Added Pin To Net: NetName=48 Pin=J7-14
+Added Pin To Net: NetName=MISO Pin=J7-15
+Added Pin To Net: NetName=SCK Pin=J7-16
+Added Pin To Net: NetName=A0 Pin=J8-1
+Added Pin To Net: NetName=A1 Pin=J8-2
+Added Pin To Net: NetName=A2 Pin=J8-3
+Added Pin To Net: NetName=A3 Pin=J8-4
+Added Pin To Net: NetName=A4 Pin=J8-5
+Added Pin To Net: NetName=A5 Pin=J8-6
+Added Pin To Net: NetName=A6 Pin=J8-7
+Added Pin To Net: NetName=A7 Pin=J8-8
+Added Pin To Net: NetName=A8 Pin=J8-9
+Added Pin To Net: NetName=A9 Pin=J8-10
+Added Pin To Net: NetName=A10 Pin=J8-11
+Added Pin To Net: NetName=14 Pin=J9-1
+Added Pin To Net: NetName=15 Pin=J9-2
+Added Pin To Net: NetName=16 Pin=J9-3
+Added Pin To Net: NetName=17 Pin=J9-4
+Added Pin To Net: NetName=18 Pin=J9-5
+Added Pin To Net: NetName=19 Pin=J9-6
+Added Pin To Net: NetName=20 Pin=A1-20SDA
+Added Pin To Net: NetName=20 Pin=J9-7
+Added Net: Name=20
+Added Pin To Net: NetName=21 Pin=A1-21SCL
+Added Pin To Net: NetName=21 Pin=J9-8
+Added Net: Name=21
+Added Pin To Net: NetName=A11 Pin=A1-A11
+Added Pin To Net: NetName=A11 Pin=J8-12
+Added Net: Name=A11
+Added Pin To Net: NetName=A12 Pin=A1-A12
+Added Pin To Net: NetName=A12 Pin=J8-13
+Added Net: Name=A12
+Added Pin To Net: NetName=A13 Pin=A1-A13
+Added Pin To Net: NetName=A13 Pin=J8-14
+Added Net: Name=A13
+Added Pin To Net: NetName=A14 Pin=J8-15
+Added Net: Name=A14
+Added Pin To Net: NetName=A15 Pin=J8-16
+Added Net: Name=A15
+Added Member To Class: ClassName=Main Member=Component J8 Header 16
+Added Member To Class: ClassName=Main Member=Component J9 Header 8

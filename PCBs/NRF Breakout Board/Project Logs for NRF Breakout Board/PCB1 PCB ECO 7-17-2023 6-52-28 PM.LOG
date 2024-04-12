@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CE Pin=S1-2
+Removed Pin From Net: NetName=+5V Pin=S2-1
+Removed Pin From Net: NetName=SCK Pin=S3-1
+Removed Pin From Net: NetName=IRQ Pin=S4-2
+Added Pin To Net: NetName=+5V Pin=S1-2
+Added Pin To Net: NetName=CE Pin=S2-1
+Added Pin To Net: NetName=IRQ Pin=S3-1
+Added Pin To Net: NetName=SCK Pin=S4-2

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=A14 Pin=A1-A14
+Removed Pin From Net: NetName=A15 Pin=A1-A15
+Removed Pin From Net: NetName=205 Pin=J1-30
+Removed Pin From Net: NetName=201 Pin=J1-34
+Added Pin To Net: NetName=201 Pin=J1-30
+Added Pin To Net: NetName=205 Pin=J1-34
+Added Member To Class: ClassName=Main Member=Component A1 Arduino Mega R3
+Added Member To Class: ClassName=Main Member=Component J1 1-1761681-3

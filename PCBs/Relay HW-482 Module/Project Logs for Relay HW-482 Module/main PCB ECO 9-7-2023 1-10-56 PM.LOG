@@ -1,0 +1,17 @@
+Added Component: Designator=H1(C13 Female Plug)
+Added Component: Designator=Rly1(SRD-05VDC Relay)
+Added Pin To Net: NetName=Coil 2 Pin=Rly1-4
+Added Pin To Net: NetName=Common Pin=H1-2
+Added Pin To Net: NetName=Common Pin=Rly1-5
+Added Net: Name=Common
+Added Pin To Net: NetName=NC Pin=H1-1
+Added Pin To Net: NetName=NC Pin=Rly1-2
+Added Net: Name=NC
+Added Pin To Net: NetName=NetRly1_3 Pin=Rly1-3
+Added Pin To Net: NetName=NetRly1_3 Pin=S2-2
+Added Net: Name=NetRly1_3
+Added Pin To Net: NetName=NO Pin=H1-3
+Added Pin To Net: NetName=NO Pin=Rly1-1
+Added Net: Name=NO
+Added Member To Class: ClassName=main Member=Component H1 1 Pin HV Connector
+Added Member To Class: ClassName=main Member=Component Rly1 5VDC Relay

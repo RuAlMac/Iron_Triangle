@@ -1,0 +1,45 @@
+Added Component: Designator=A1(Arduino Uno)
+Added Pin To Net: NetName=0 Pin=A1-0
+Added Pin To Net: NetName=1 Pin=A1-1
+Added Pin To Net: NetName=2 Pin=A1-2
+Added Pin To Net: NetName=3 Pin=A1-3
+Added Pin To Net: NetName=3V3 Pin=A1-3V3
+Added Pin To Net: NetName=4 Pin=A1-4
+Added Pin To Net: NetName=5 Pin=A1-5
+Added Pin To Net: NetName=5V Pin=A1-5V
+Added Pin To Net: NetName=6 Pin=A1-6
+Added Pin To Net: NetName=7 Pin=A1-7
+Added Pin To Net: NetName=8 Pin=A1-8
+Added Pin To Net: NetName=9 Pin=A1-9
+Added Pin To Net: NetName=10 Pin=A1-10
+Added Pin To Net: NetName=11 Pin=A1-11
+Added Pin To Net: NetName=12 Pin=A1-12
+Added Pin To Net: NetName=13 Pin=A1-13
+Added Pin To Net: NetName=ICSP GND Pin=A1-200
+Added Pin To Net: NetName=201 Pin=A1-201
+Added Pin To Net: NetName=202 Pin=A1-202
+Added Pin To Net: NetName=203 Pin=A1-203
+Added Pin To Net: NetName=204 Pin=A1-204
+Added Pin To Net: NetName=205 Pin=A1-205
+Added Pin To Net: NetName=ICSP GND Pin=A1-300
+Added Pin To Net: NetName=301 Pin=A1-301
+Added Pin To Net: NetName=302 Pin=A1-302
+Added Pin To Net: NetName=303 Pin=A1-303
+Added Pin To Net: NetName=304 Pin=A1-304
+Added Pin To Net: NetName=305 Pin=A1-305
+Added Pin To Net: NetName=A0 Pin=A1-A0
+Added Pin To Net: NetName=A1 Pin=A1-A1
+Added Pin To Net: NetName=A2 Pin=A1-A2
+Added Pin To Net: NetName=A3 Pin=A1-A3
+Added Pin To Net: NetName=A4 Pin=A1-A4
+Added Pin To Net: NetName=A5 Pin=A1-A5
+Added Pin To Net: NetName=AREF Pin=A1-AREF
+Added Pin To Net: NetName=GND Pin=A1-GND1
+Added Pin To Net: NetName=GND Pin=A1-GND2
+Added Pin To Net: NetName=GND Pin=A1-GND3
+Added Pin To Net: NetName=IOREF Pin=A1-IOREF
+Added Pin To Net: NetName=RESET Pin=A1-RESET
+Added Pin To Net: NetName=SCL Pin=A1-SCL
+Added Pin To Net: NetName=SDA Pin=A1-SDA
+Added Pin To Net: NetName=VIN Pin=A1-VIN
+Added Member To Class: ClassName=Main Member=Component A1 Arduino Uno

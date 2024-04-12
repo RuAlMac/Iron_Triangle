@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=SD_CS Pin=P7-1
+Removed Pin From Net: NetName=SD_SCK Pin=P7-2
+Removed Pin From Net: NetName=SD_MOSI Pin=P8-1
+Removed Pin From Net: NetName=SD_MISO Pin=P8-2
+Removed Pin From Net: NetName=SPEAKER Pin=P9-1
+Added Pin To Net: NetName=SPEAKER Pin=P7-1
+Added Pin To Net: NetName=SD_CS Pin=P8-1
+Added Pin To Net: NetName=SD_SCK Pin=P8-2
+Added Pin To Net: NetName=SD_MOSI Pin=P9-1
+Added Pin To Net: NetName=SD_MISO Pin=P9-2
+Added Member To Class: ClassName=main Member=Component B2 Button 2
+Added Member To Class: ClassName=main Member=Component B4 LDR 1

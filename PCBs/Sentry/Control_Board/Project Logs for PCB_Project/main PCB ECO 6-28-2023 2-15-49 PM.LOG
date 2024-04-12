@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=D2 Old DesignItemId=Header 6H New DesignItemId=Header 6
+Change Component Footprint: Designator=D2 Old Footprint=HDR1X6H New Footprint=HDR1X6
+Change Component Comment : Designator=D2 Old Comment=SD New Comment=Header 6
+Change Component Description : Designator=D2 Old Description=Header, 6-Pin, Right Angle New Description=Header, 6-Pin
+Added Member To Class: ClassName=main Member=Component P11
